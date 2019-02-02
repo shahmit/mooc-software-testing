@@ -1,7 +1,14 @@
 package tudelft.gettingstarted;
 
+
+import org.testng.annotations.Test;
+
 public class GettingStarted {
-    public int addFive (int number) {
-        return number + 5;
-    }
+   
+	@Test
+	// Add the correct numbers
+	public void addFiveToZero() {
+	    int result = 5;
+	    System.out.println("the sum is "+ result);
+	}
 }
